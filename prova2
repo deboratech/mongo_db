@@ -1,0 +1,199 @@
+const database = 'local';
+const collection = 'estudo_caso';
+
+// The current database to use.
+use(database);
+db.grades.insertMany([
+    { "_id" : ObjectId("50906d7fa3c412bb040eb53f"), "student_id" : 10, "type" : "exam", "score" : 68.21997173536614 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x0"), "student_id" : 10, "type" : "quiz", "score" : 31.50684736913416 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x1"), "student_id" : 10, "type" : "homework", "score" : 5.255462143092585 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x2"), "student_id" : 10, "type" : "homework", "score" : 81.91129966311689 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x3"), "student_id" : 11, "type" : "exam", "score" : 82.18564450391975 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x4"), "student_id" : 11, "type" : "quiz", "score" : 46.927053095856 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x5"), "student_id" : 11, "type" : "homework", "score" : 29.83171123556921 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x6"), "student_id" : 11, "type" : "homework", "score" : 49.77556332583921 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x7"), "student_id" : 12, "type" : "exam", "score" : 91.14572483642778 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x8"), "student_id" : 12, "type" : "quiz", "score" : 71.14534576524212 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5x9"), "student_id" : 12, "type" : "homework", "score" : 81.49273140764237 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5aa"), "student_id" : 12, "type" : "homework", "score" : 40.87797943162821 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ab"), "student_id" : 13, "type" : "exam", "score" : 39.69492668792039 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ac"), "student_id" : 13, "type" : "quiz", "score" : 64.87329483357713 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ad"), "student_id" : 13, "type" : "homework", "score" : 61.16509888785614 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ae"), "student_id" : 13, "type" : "homework", "score" : 23.45393478230902 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5af"), "student_id" : 14, "type" : "exam", "score" : 99.31969497156546 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b0"), "student_id" : 14, "type" : "quiz", "score" : 62.0386764202561 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b1"), "student_id" : 14, "type" : "homework", "score" : 57.84995502199388 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b2"), "student_id" : 14, "type" : "homework", "score" : 24.03659189550408 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b3"), "student_id" : 15, "type" : "exam", "score" : 75.89251683729428 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b4"), "student_id" : 15, "type" : "quiz", "score" : 89.47061830872194 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b5"), "student_id" : 15, "type" : "homework", "score" : 43.72108453299915 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b6"), "student_id" : 15, "type" : "homework", "score" : 62.9934219178763 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b7"), "student_id" : 16, "type" : "exam", "score" : 82.41578946712858 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b8"), "student_id" : 16, "type" : "quiz", "score" : 50.39273429381742 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5b9"), "student_id" : 16, "type" : "homework", "score" : 75.28293749921309 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ba"), "student_id" : 16, "type" : "homework", "score" : 88.17924672642912 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5bb"), "student_id" : 17, "type" : "exam", "score" : 69.13820582163376 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5bc"), "student_id" : 17, "type" : "quiz", "score" : 78.49263791537205 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5bd"), "student_id" : 17, "type" : "homework", "score" : 85.47185364983612 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5be"), "student_id" : 17, "type" : "homework", "score" : 44.10959863201597 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5bf"), "student_id" : 18, "type" : "exam", "score" : 56.21503801962022 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c0"), "student_id" : 18, "type" : "quiz", "score" : 70.36274351392629 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c1"), "student_id" : 18, "type" : "homework", "score" : 77.98237491111553 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c2"), "student_id" : 18, "type" : "homework", "score" : 91.06739402774511 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c3"), "student_id" : 19, "type" : "exam", "score" : 88.73612490536201 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c4"), "student_id" : 19, "type" : "quiz", "score" : 79.62513420804923 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c5"), "student_id" : 19, "type" : "homework", "score" : 67.38294562381157 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c6"), "student_id" : 19, "type" : "homework", "score" : 54.97162379573216 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c7"), "student_id" : 20, "type" : "exam", "score" : 90.27834911848595 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c8"), "student_id" : 20, "type" : "quiz", "score" : 85.39741647362182 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5c9"), "student_id" : 20, "type" : "homework", "score" : 73.61947835481972 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ca"), "student_id" : 20, "type" : "homework", "score" : 65.02835105928268 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5cb"), "student_id" : 21, "type" : "exam", "score" : 72.99063420348948 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5cc"), "student_id" : 21, "type" : "quiz", "score" : 83.61528945773915 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5cd"), "student_id" : 21, "type" : "homework", "score" : 80.25739213472891 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5ce"), "student_id" : 21, "type" : "homework", "score" : 45.67091568791447 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5cf"), "student_id" : 22, "type" : "exam", "score" : 85.66342180568433 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5d0"), "student_id" : 22, "type" : "quiz", "score" : 77.28960193450732 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5d1"), "student_id" : 22, "type" : "homework", "score" : 70.12489365200111 },
+    { "_id" : ObjectId("50906d7fa3c412bb040eb5d2"), "student_id" : 22, "type" : "homework", "score" : 60.93273179438907 }
+    
+    
+    ])
+    
+    # Agregar para encontrar o aluno com a média mais alta
+    
+    db.grades.aggregate([
+        {$group: {
+                _id: "$student_id",
+                average: { $avg: "$score" }}},
+        {$sort: { average: -1 }},
+        { $limit: 1 }
+    ])
+    
+    
+    # Notas tipo 'homework' mais alta
+    // Script para encontrar as notas do tipo "homework" com a pontuação mais alta para cada aluno
+    db.grades.aggregate([
+        {$match: { type: "homework" }},
+        {$sort: { score: -1 }},
+    
+        {$group: {
+                _id: "$student_id",
+                top_homework: { $first: "$$ROOT" }}},
+    
+        {$replaceRoot: { newRoot: "$top_homework" }},
+        {$out: "top_homeworks"}
+    ])
+    
+db.student.insertMany([
+    { "_id": 5, "nome": "Kaley Oseguera", "pontuações": [ { "tipo": "exame", "pontuação": 86.04154878642983}, { "tipo": "quiz", "pontuação": 29.93983271866018}, { "tipo": "lição de casa", "pontuação": 75.13865029368009}, { "tipo": "lição de casa", "pontuação": 39.26247933004745 } ] },
+    { "_id": 6, "nome": "Francine Vieira", "pontuações": [ { "tipo": "exame", "pontuação": 62.14291523418609}, { "tipo": "quiz", "pontuação": 42.33450212339164}, { "tipo": "lição de casa", "pontuação": 49.54817727050867}, { "tipo": "lição de casa", "pontuação": 85.05889664214267 } ] },
+    { "_id": 7, "nome": "Pauline Cusumano", "pontuações": [ { "tipo": "exame", "pontuação": 78.83128298404726}, { "tipo": "quiz", "pontuação": 56.08583347746412}, { "tipo": "lição de casa", "pontuação": 66.52837949640644}, { "tipo": "lição de casa", "pontuação": 4.833400495215498 } ] },
+    { "_id": 8, "nome": "Genoveva Morin", "pontuações": [ { "tipo": "exame", "pontuação": 25.1992749037615}, { "tipo": "quiz", "pontuação": 92.55146144494016}, { "tipo": "lição de casa", "pontuação": 94.26244408991566}, { "tipo": "lição de casa", "pontuação": 11.86510100531262 } ] },
+    { "_id": 9, "nome": "Young Healy", "pontuações": [ { "tipo": "exame", "pontuação": 3.76745179005529}, { "tipo": "quiz", "pontuação": 96.76707212645626}, { "tipo": "lição de casa", "pontuação": 41.0849478771786}, { "tipo": "lição de casa", "pontuação": 25.10561148358986 } ] },
+    { "_id": 10, "nome": "Elbert Stelly", "pontuações": [ { "tipo": "exame", "pontuação": 25.76070263822682}, { "tipo": "quiz", "pontuação": 53.09255082667149}, { "tipo": "lição de casa", "pontuação": 48.17708631863445}, { "tipo": "lição de casa", "pontuação": 14.0953999919505 } ] },
+    { "_id": 11, "nome": "Zona Collins", "pontuações": [ { "tipo": "exame", "pontuação": 87.30417912036468}, { "tipo": "quiz", "pontuação": 59.16045138928617}, { "tipo": "lição de casa", "pontuação": 19.82588641502449}, { "tipo": "lição de casa", "pontuação": 15.7686664336881 } ] },
+    { "_id": 12, "nome": "Rina Minnick", "pontuações": [ { "tipo": "exame", "pontuação": 36.04468014176469}, { "tipo": "quiz", "pontuação": 16.51543388692457}, { "tipo": "lição de casa", "pontuação": 89.38794083427345}, { "tipo": "lição de casa", "pontuação": 2.251195326993893 } ] },
+    { "_id": 13, "nome": "Carisa Kopps", "pontuações": [ { "tipo": "exame", "pontuação": 72.88773480534827}, { "tipo": "quiz", "pontuação": 86.76135989906117}, { "tipo": "lição de casa", "pontuação": 10.6258882849876}, { "tipo": "lição de casa", "pontuação": 61.03463352267814 } ] },
+    { "_id": 14, "nome": "Naomi Melo", "pontuações": [ { "tipo": "exame", "pontuação": 95.57545769086956}, { "tipo": "quiz", "pontuação": 98.88108075917927}, { "tipo": "lição de casa", "pontuação": 42.62084096175072}, { "tipo": "lição de casa", "pontuação": 91.41375964324196 } ] },
+    { "_id": 15, "nome": "Tracie Zimmerman", "pontuações": [ { "tipo": "exame", "pontuação": 27.77837536011016}, { "tipo": "quiz", "pontuação": 92.01738267374417}, { "tipo": "lição de casa", "pontuação": 58.44705885747418}, { "tipo": "lição de casa", "pontuação": 76.52253581098598 } ] },
+    { "_id": 16, "nome": "Jimmy Harned", "pontuações": [ { "tipo": "exame", "pontuação": 44.13919966362742}, { "tipo": "quiz", "pontuação": 59.16103269842216}, { "tipo": "lição de casa", "pontuação": 51.33241234994389}, { "tipo": "lição de casa", "pontuação": 95.90063120149405 } ] },
+    { "_id": 17, "nome": "Dion Zepp", "pontuações": [ { "tipo": "exame", "pontuação": 73.07998126516026}, { "tipo": "quiz", "pontuação": 78.75983836309044}, { "tipo": "lição de casa", "pontuação": 76.31398499170035}, { "tipo": "lição de casa", "pontuação": 34.44166662573438 } ] },
+    { "_id": 18, "nome": "Michele Steffens", "pontuações": [ { "tipo": "exame", "pontuação": 82.54102277174044}, { "tipo": "quiz", "pontuação": 96.1463182490283}, { "tipo": "lição de casa", "pontuação": 2.68391890743732}, { "tipo": "lição de casa", "pontuação": 94.20722452291608 } ] },
+    { "_id": 19, "nome": "Man Copas", "pontuações": [ { "tipo": "exame", "pontuação": 9.201939498447162}, { "tipo": "quiz", "pontuação": 82.9058544446781}, { "tipo": "lição de casa", "pontuação": 45.4936737339203}, { "tipo": "lição de casa", "pontuação": 53.35711973307427 } ] },
+    { "_id": 20, "nome": "Britt Terwilliger", "pontuações": [ { "tipo": "exame", "pontuação": 44.96937889046545}, { "tipo": "quiz", "pontuação": 45.1342220556653}, { "tipo": "lição de casa", "pontuação": 22.08151076469742}, { "tipo": "lição de casa", "pontuação": 41.46418842867914 } ] },
+    { "_id": 21, "nome": "Reynalda Cathie", "pontuações": [ { "tipo": "exame", "pontuação": 67.05568786759485}, { "tipo": "quiz", "pontuação": 60.80773192921888}, { "tipo": "lição de casa", "pontuação": 45.79384885474647}, { "tipo": "lição de casa", "pontuação": 92.5837501747762 } ] },
+    { "_id": 22, "nome": "Vada Angland", "pontuações": [ { "tipo": "exame", "pontuação": 54.50699077349576}, { "tipo": "quiz", "pontuação": 49.13557811268117}, { "tipo": "lição de casa", "pontuação": 47.04270217672695}, { "tipo": "lição de casa", "pontuação": 82.20088939371256 } ] },
+    { "_id": 23, "nome": "Melvin Gandara", "pontuações": [ { "tipo": "exame", "pontuação": 76.75432026783965}, { "tipo": "quiz", "pontuação": 40.84715280942992}, { "tipo": "lição de casa", "pontuação": 64.86418524224338}, { "tipo": "lição de casa", "pontuação": 54.3742740477648 } ] },
+    { "_id": 24, "nome": "Wanetta Hyder", "pontuações": [ { "tipo": "exame", "pontuação": 61.31801731321976}, { "tipo": "quiz", "pontuação": 44.15584898935618}, { "tipo": "lição de casa", "pontuação": 14.72493488898606}, { "tipo": "lição de casa", "pontuação": 64.30948291435644 } ] },
+    { "_id": 25, "nome": "Maragaret Murphree", "pontuações": [ { "tipo": "exame", "pontuação": 50.17079801332101}, { "tipo": "quiz", "pontuação": 27.24232309954002}, { "tipo": "lição de casa", "pontuação": 45.1521951307981}, { "tipo": "lição de casa", "pontuação": 92.17826532138206 } ] },
+    { "_id": 26, "nome": "Zula Shively", "pontuações": [ { "tipo": "exame", "pontuação": 78.13935969097394}, { "tipo": "quiz", "pontuação": 55.06165444536829}, { "tipo": "lição de casa", "pontuação": 14.99151121542114}, { "tipo": "lição de casa", "pontuação": 69.04626158115334 } ] },
+    { "_id": 27, "nome": "Amanda Schlatter", "pontuações": [ { "tipo": "exame", "pontuação": 61.55839682472959}, { "tipo": "quiz", "pontuação": 52.75577204262195}, { "tipo": "lição de casa", "pontuação": 1.5880046861393}, { "tipo": "lição de casa", "pontuação": 48.21099803496047 } ] },
+    { "_id": 28, "nome": "Jamila Wigfall", "pontuações": [ { "tipo": "exame", "pontuação": 33.4661213725174}, { "tipo": "quiz", "pontuação": 98.10863287542287}, { "tipo": "lição de casa", "pontuação": 70.65006376685023}, { "tipo": "lição de casa", "pontuação": 27.46365029941374 } ] },
+    { "_id": 29, "nome": "Norene Hope", "pontuações": [ { "tipo": "exame", "pontuação": 64.12938226421708}, { "tipo": "quiz", "pontuação": 72.83254194694097}, { "tipo": "lição de casa", "pontuação": 16.67987751201108}, { "tipo": "lição de casa", "pontuação": 73.00958089009026 } ] },
+    { "_id": 30, "nome": "Sharla Staab", "pontuações": [ { "tipo": "exame", "pontuação": 83.3745511472864}, { "tipo": "quiz", "pontuação": 3.640531329783913}, { "tipo": "lição de casa", "pontuação": 82.50513633131768}, { "tipo": "lição de casa", "pontuação": 89.317927181798 }]}
+    
+])
+
+db.student.insertMany([
+    { "_id": 31, "nome": "Fletcher Knapp", "pontuações": [ { "tipo": "exame", "pontuação": 50.44372785789214}, { "tipo": "quiz", "pontuação": 22.88765834372643}, { "tipo": "lição de casa", "pontuação": 87.91564376668281}, { "tipo": "lição de casa", "pontuação": 75.33045542570127 } ] },
+    { "_id": 32, "nome": "Karren Messer", "pontuações": [ { "tipo": "exame", "pontuação": 67.38286062318839}, { "tipo": "quiz", "pontuação": 37.82141478348889}, { "tipo": "lição de casa", "pontuação": 64.09724506605837}, { "tipo": "lição de casa", "pontuação": 95.01207621958424 } ] },
+    { "_id": 33, "nome": "Georgie Minelli", "pontuações": [ { "tipo": "exame", "pontuação": 72.21189314975482}, { "tipo": "quiz", "pontuação": 6.018318440844033}, { "tipo": "lição de casa", "pontuação": 41.22492309003733}, { "tipo": "lição de casa", "pontuação": 80.06189299643723 } ] },
+    { "_id": 34, "nome": "Marleen Cuffie", "pontuações": [ { "tipo": "exame", "pontuação": 39.42226740188279}, { "tipo": "quiz", "pontuação": 54.98738090613192}, { "tipo": "lição de casa", "pontuação": 31.11978012129829}, { "tipo": "lição de casa", "pontuação": 55.42367606453779 } ] },
+    { "_id": 35, "nome": "Bryant Khalsa", "pontuações": [ { "tipo": "exame", "pontuação": 65.73441675863462}, { "tipo": "quiz", "pontuação": 21.65722554833144}, { "tipo": "lição de casa", "pontuação": 96.73105409538108}, { "tipo": "lição de casa", "pontuação": 45.16678910756746 } ] },
+    { "_id": 36, "nome": "Renetta Span", "pontuações": [ { "tipo": "exame", "pontuação": 79.76588009826357}, { "tipo": "quiz", "pontuação": 66.44234465274947}, { "tipo": "lição de casa", "pontuação": 47.00923521008742}, { "tipo": "lição de casa", "pontuação": 14.34208875591429 } ] },
+    { "_id": 37, "nome": "Catrice Steiner", "pontuações": [ { "tipo": "exame", "pontuação": 74.89271712961405}, { "tipo": "quiz", "pontuação": 26.22280160566318}, { "tipo": "lição de casa", "pontuação": 88.54092382916363}, { "tipo": "lição de casa", "pontuação": 19.08773823084617 } ] },
+    { "_id": 38, "nome": "Shaun Mulvihill", "pontuações": [ { "tipo": "exame", "pontuação": 57.93417118987282}, { "tipo": "quiz", "pontuação": 61.12110810254507}, { "tipo": "lição de casa", "pontuação": 20.86489048027651}, { "tipo": "lição de casa", "pontuação": 81.17831261262456 } ] },
+    { "_id": 39, "nome": "Tinisha Meier", "pontuações": [ { "tipo": "exame", "pontuação": 31.7995375714182}, { "tipo": "quiz", "pontuação": 95.01330200474304}, { "tipo": "lição de casa", "pontuação": 73.08716973213419}, { "tipo": "lição de casa", "pontuação": 38.91175572415358 } ] },
+    { "_id": 40, "nome": "Jeni Grunewald", "pontuações": [ { "tipo": "exame", "pontuação": 17.48594302779791}, { "tipo": "quiz", "pontuação": 33.2345528014795}, { "tipo": "lição de casa", "pontuação": 85.56982970318604}, { "tipo": "lição de casa", "pontuação": 93.49621447738156 } ] },
+    { "_id": 41, "nome": "Elda Geiss", "pontuações": [ { "tipo": "exame", "pontuação": 51.67841612610458}, { "tipo": "quiz", "pontuação": 54.96046458382938}, { "tipo": "lição de casa", "pontuação": 77.02367022704944}, { "tipo": "lição de casa", "pontuação": 60.52972678701941 } ] },
+    { "_id": 42, "nome": "Marcelo Windham", "pontuações": [ { "tipo": "exame", "pontuação": 95.07878227573152}, { "tipo": "quiz", "pontuação": 73.99004578506147}, { "tipo": "lição de casa", "pontuação": 41.13968858103134}, { "tipo": "lição de casa", "pontuação": 10.22494065161136 } ] },
+    { "_id": 43, "nome": "Cheryle Mcduff", "pontuações": [ { "tipo": "exame", "pontuação": 65.01376960040851}, { "tipo": "quiz", "pontuação": 32.31244366268105}, { "tipo": "lição de casa", "pontuação": 75.3823802338506}, { "tipo": "lição de casa", "pontuação": 44.99734564667912 } ] },
+    { "_id": 44, "nome": "Lizzette Ciulla", "pontuações": [ { "tipo": "exame", "pontuação": 49.78683735305022}, { "tipo": "quiz", "pontuação": 68.9349810197315}, { "tipo": "lição de casa", "pontuação": 54.9873584768034}, { "tipo": "lição de casa", "pontuação": 92.4336107982617 } ] },
+    { "_id": 45, "nome": "Angela Bayles", "pontuações": [ { "tipo": "exame", "pontuação": 72.29014880332767}, { "tipo": "quiz", "pontuação": 18.01253984109413}, { "tipo": "lição de casa", "pontuação": 65.80937807137425}, { "tipo": "lição de casa", "pontuação": 98.45634040769023 } ] },
+    { "_id": 46, "nome": "Palmira Hinds", "pontuações": [ { "tipo": "exame", "pontuação": 33.99200497747071}, { "tipo": "quiz", "pontuação": 17.41349580141018}, { "tipo": "lição de casa", "pontuação": 75.69332430991636}, { "tipo": "lição de casa", "pontuação": 89.5509400057868 } ] },
+    { "_id": 47, "nome": "Adelaida Starkey", "pontuações": [ { "tipo": "exame", "pontuação": 18.63734718741193}, { "tipo": "quiz", "pontuação": 80.5614431874599}, { "tipo": "lição de casa", "pontuação": 80.81845243800896}, { "tipo": "lição de casa", "pontuação": 69.45602049423749 } ] },
+    { "_id": 48, "nome": "Wendie Sahr", "pontuações": [ { "tipo": "exame", "pontuação": 94.11945217283296}, { "tipo": "quiz", "pontuação": 43.09111789143362}, { "tipo": "lição de casa", "pontuação": 92.43867836741698}, { "tipo": "lição de casa", "pontuação": 55.79086215989118 } ] },
+    { "_id": 49, "nome": "Emory Tynes", "pontuações": [ { "tipo": "exame", "pontuação": 30.33212462110928}, { "tipo": "quiz", "pontuação": 89.79141337287967}, { "tipo": "lição de casa", "pontuação": 85.1445863364771}, { "tipo": "lição de casa", "pontuação": 50.3659923998563 } ] },
+    { "_id": 50, "nome": "Fidela Sailer", "pontuações": [ { "tipo": "exame", "pontuação": 58.62403802050377}, { "tipo": "quiz", "pontuação": 14.86322253620112}, { "tipo": "lição de casa", "pontuação": 32.9751012844527}, { "tipo": "lição de casa", "pontuação": 26.30111257244783 } ] },
+    { "_id": 51, "nome": "Tawana Yap", "pontuações": [ { "tipo": "exame", "pontuação": 68.84964361527248}, { "tipo": "quiz", "pontuação": 92.88196316638012}, { "tipo": "lição de casa", "pontuação": 42.67869271640592}, { "tipo": "lição de casa", "pontuação": 25.98007915906785 } ] },
+    { "_id": 52, "nome": "Kristina Malinowski", "pontuações": [ { "tipo": "exame", "pontuação": 24.61276034583344}, { "tipo": "quiz", "pontuação": 99.26784149704565}, { "tipo": "lição de casa", "pontuação": 94.25406647140028}, { "tipo": "lição de casa", "pontuação": 67.81109831216642 } ] },
+    { "_id": 53, "nome": "Randee Brister", "pontuações": [ { "tipo": "exame", "pontuação": 66.15864744429677}, { "tipo": "quiz", "pontuação": 68.7648122656877}, { "tipo": "lição de casa", "pontuação": 44.92096329895165}, { "tipo": "lição de casa", "pontuação": 72.27058285313908 } ] },
+    { "_id": 54, "nome": "Daniela Geyer", "pontuações": [ { "tipo": "exame", "pontuação": 16.25413399861516}, { "tipo": "quiz", "pontuação": 69.10610199031016}, { "tipo": "lição de casa", "pontuação": 37.28418988656324}, { "tipo": "lição de casa", "pontuação": 99.21482355892382 } ] },
+    { "_id": 55, "nome": "Debera Feather", "pontuações": [ { "tipo": "exame", "pontuação": 64.92988488664872}, { "tipo": "quiz", "pontuação": 91.80059515524333}, { "tipo": "lição de casa", "pontuação": 29.73908731954333}, { "tipo": "lição de casa", "pontuação": 13.25589124592444 } ] },
+    { "_id": 56, "nome": "Lawanna Matias", "pontuações": [ { "tipo": "exame", "pontuação": 73.26496084166354}, { "tipo": "quiz", "pontuação": 84.11725573811033}, { "tipo": "lição de casa", "pontuação": 89.26816703608597}, { "tipo": "lição de casa", "pontuação": 78.22549320858422 } ] },
+    { "_id": 57, "nome": "Laurena Riggan", "pontuações": [ { "tipo": "exame", "pontuação": 52.76327099459368}, { "tipo": "quiz", "pontuação": 84.10018995780942}, { "tipo": "lição de casa", "pontuação": 41.33162533524896}, { "tipo": "lição de casa", "pontuação": 82.99065707838477 } ] },
+    { "_id": 58, "nome": "Marni Paulette", "pontuações": [ { "tipo": "exame", "pontuação": 83.53720034130944}, { "tipo": "quiz", "pontuação": 52.18688587915863}, { "tipo": "lição de casa", "pontuação": 62.66460311633443}, { "tipo": "lição de casa", "pontuação": 48.93096133592592 } ] },
+    { "_id": 59, "nome": "Dale Marlon", "pontuações": [ { "tipo": "exame", "pontuação": 76.98735255888111}, { "tipo": "quiz", "pontuação": 88.69104953357942}, { "tipo": "lição de casa", "pontuação": 12.79846980550893}, { "tipo": "lição de casa", "pontuação": 98.66907641483207 } ] },
+    { "_id": 60, "nome": "Erlinda Koss", "pontuações": [ { "tipo": "exame", "pontuação": 59.2226210249735}, { "tipo": "quiz", "pontuação": 85.33903779193647}, { "tipo": "lição de casa", "pontuação": 19.15351822330199}, { "tipo": "lição de casa", "pontuação": 40.11298687317882 } ] }
+  ])
+  
+# Aluno com a média mais alta da classe
+
+  db.student.aggregate([
+    {$addFields: {
+        average: {$avg: "$grades.score"}
+    }},
+
+    {$sort: { average: -1}
+    
+    },
+
+    {$limit: 1}
+  ])
+
+# Remover nota tipo 'homework'
+
+db.students.find().forEach(function(student) {
+    var lowestHomeworkIndex = -1;
+    var lowestHomeworkScore = Number.MAX_VALUE;
+    
+    for (var i = 0; i < student.grades.length; i++) {
+        var grades = student.grades[i];
+        if (grades.type === "homework" && grades.score < lowestHomeworkScore) {
+            lowestHomeworkScore = grades.score;
+            lowestHomeworkIndex = i;
+        }
+    }
+    
+    if (lowestHomeworkIndex !== -1) {
+        student.grades.splice(lowestHomeworkIndex, 1);
+        db.students.save(student);
+    }
+})
+
+# Arquivo baixado pelo prompt de comando
+mongoimport --db post --collection estudo_caso --file posts.json --jsonArray
+
+use post
+
+db.estudo_caso.find()
+
+db.posts.aggregate([
+   
+    {$group: { _id: "$author", totalComments: { $sum: { $size: "$comments" }}}},
+
+    {$sort: {totalComments: -1}},
+    
+    {$limit: 1 }
+])
